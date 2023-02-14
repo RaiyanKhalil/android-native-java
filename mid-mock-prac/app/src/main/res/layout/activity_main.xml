@@ -7,9 +7,41 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/userName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/midTermExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/userExam"
+        app:layout_constraintEnd_toEndOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <TextView
+        android:id="@+id/userStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/userId"
+        app:layout_constraintStart_toStartOf="@+id/midTermExam"
+        app:layout_constraintTop_toBottomOf="@+id/midTermExam" />
+
+    <Button
+        android:id="@+id/clickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startAppBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

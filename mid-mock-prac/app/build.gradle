@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.mid_mock_prac'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.mid_mock_prac"

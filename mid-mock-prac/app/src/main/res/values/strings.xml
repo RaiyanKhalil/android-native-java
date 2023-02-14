@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">mid-mock-prac</string>
+    <string name="userName">Raiyan Shuvo</string>
+    <string name="userExam">Midterm Exam</string>
+    <string name="userId">300358160</string>
+    <string name="startAppBtn">Click button to start app</string>
 </resources>
