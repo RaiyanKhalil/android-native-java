@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Medical Calculator</string>
+    <string name="hint">Patient Wieght</string>
+    <string name="radPdToKilo">Convert Pound to Kilo</string>
+    <string name="radKiloToPd">Convert Kilo to Pound</string>
+    <string name="btnConvert">Convert Weight</string>
+    <string name="txtTitle">Convert Patient Weight</string>
+</resources>
