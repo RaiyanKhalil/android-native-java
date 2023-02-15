@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">week3LabPrac</string>
+    <string name="ticketName">Ticket Vault</string>
+    <string name="numOfTickets">Number of Tickets</string>
+    <string name="findCostBtn">Calculate Cost</string>
+    <string name="randoImg">Random Image</string>
+    <string-array name="txtGroup">
+        <item>Genre One</item>
+        <item>Genre Two</item>
+        <item>Genre Three</item>
+    </string-array>
+</resources>
