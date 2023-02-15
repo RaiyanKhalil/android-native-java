@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgSmall"
+        tools:layout_gravity="center_horizontal"
+        tools:layout_marginEnd="5dp"
+        tools:layout_marginTop="5dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
