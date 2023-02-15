@@ -43,8 +43,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="353dp"
+        android:layout_height="162dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="259dp"
         android:layout_marginEnd="29dp"
@@ -64,7 +64,7 @@
         <RadioButton
             android:id="@+id/radKiloToPd"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="80dp"
             android:text="@string/radKiloToPd"
             tools:textSize="18sp" />
     </RadioGroup>
@@ -85,11 +85,11 @@
         android:id="@+id/results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="94dp"
+        android:layout_marginStart="182dp"
         android:layout_marginBottom="142dp"
-        android:textSize="20sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/convertBtn"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
