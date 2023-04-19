@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RaiyanMidterm-002</string>
+    <string name="midTermTitle">Midterm Exam</string>
+    <string name="courseName">CSIS 3175-0002</string>
+    <string name="studentName">Raiyan Shuvo</string>
+    <string name="studentID">300358160</string>
+    <string name="txtMenu">Menu</string>
+    <string name="txtMenuTwo">MenuTwo</string>
+    <string name="placeOrder">Place Order</string>
+    <string-array name="foodItem">
+        <item>Chicken Sandwich</item>
+        <item>Peanut Butter Sandwich</item>
+        <item>Chicken Soup</item>
+        <item>Grilled Cheese Sandwich</item>
+    </string-array>
+    <string name="milk">Milk</string>
+    <string name="juice">Juice</string>
+    <string name="soda">Soda</string>
+    <string name="coffee">Coffee</string>
+    <string name="water">Water</string>
+    <string name="sInstruct">Special Instruction</string>
+    <string name="placeTOrder">Place The Order</string>
+    <string name="fourthActivity">Order Result</string>
+</resources>

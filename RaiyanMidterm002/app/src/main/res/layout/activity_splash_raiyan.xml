@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivityRaiyan">
+
+    <TextView
+        android:id="@+id/midTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="54dp"
+        android:text="@string/midTermTitle"
+        app:layout_constraintStart_toStartOf="@+id/courseTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/courseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/courseName"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/midTittle" />
+
+    <TextView
+        android:id="@+id/stdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/studentName"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="@+id/courseTitle"
+        app:layout_constraintTop_toBottomOf="@+id/courseTitle" />
+
+    <TextView
+        android:id="@+id/stdID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/studentID"
+        app:layout_constraintStart_toStartOf="@+id/stdName"
+        app:layout_constraintTop_toBottomOf="@+id/stdName"
+        tools:textSize="28sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

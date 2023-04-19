@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WK10</string>
+    <string name="hintMobile">Enter mobile number</string>
+    <string name="hintName">Enter your name</string>
+    <string name="hintStudentId">Enter your student ID</string>
+    <string name="hintCourseId">Enter course ID</string>
+    <string name="labelAdd">Add Data</string>
+    <string name="lblRandom">Random button</string>
+    <string name="labelView">View data</string>
+    <string name="labelDelete">Delete a record</string>
+    <string name="labelDeleteGo">Go to delete</string>
+    <string name="label">Go to update</string>
+    <string name="labelUpdate">Update a record</string>
+    <string name="hintDeleteId">Delete a student id</string>
+    <string name="hintNewMobile">Enter new mobile</string>
+</resources>

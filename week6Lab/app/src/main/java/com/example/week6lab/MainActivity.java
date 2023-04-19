@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.Item
 
     @Override
     public void onItemClick(View view, int position) {
-        Toast.makeText(getBaseContext(), "Selected Species" + (position + 1), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(),
+                "Selected Species" + (position + 1), Toast.LENGTH_SHORT).show();
         pic.setImageResource(adapter.getmData(position));
     }
 }

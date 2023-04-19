@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Final_Practise_One</string>
+    <string name="stdID">300358160</string>
+    <string name="fullName">Raiyan Khalil Shuvo</string>
+    <string name="regBtn">Register a student</string>
+    <string name="addBookBtn">Add a book</string>
+    <string name="loginBtn">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
